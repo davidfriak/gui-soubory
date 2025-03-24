@@ -30,6 +30,7 @@ public class Form extends JFrame {
         frame.setContentPane(pnMain);
         frame.setDefaultCloseOperation(EXIT_ON_CLOSE);
         frame.setSize(600, 400);
+        frame.setTitle("Gui se soubory");
         frame.setVisible(true);
 
         open.addActionListener(e -> open());
